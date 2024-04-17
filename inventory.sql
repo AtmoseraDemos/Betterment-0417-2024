@@ -78,3 +78,9 @@ Query the Products table to display all products in descending order of price.
 
 SELECT * FROM Products ORDER BY Price DESC;
 
+/*
+Query the Products table to display all products in a specific category (e.g., Electronics).
+*/
+
+SELECT * FROM Products WHERE CategoryID = 1;
+
